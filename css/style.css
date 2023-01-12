@@ -1,0 +1,256 @@
+head {
+    display: none;
+}
+
+div {
+    display: block;
+}
+a {
+  text-decoration-line : none;
+  text-decoration:none; 
+	font-family: 'Gothic A1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    color: #000000;
+}
+#wrap {
+    overflow: hidden;
+    min-width: 864px;
+}
+
+ol, ul,li {
+    list-style: none; 
+	margin:0;
+	padding:0;
+}
+
+html, body {
+    width: 100%;
+    min-width: 864px;
+    font-family: "Gothic A1", "Inter";
+    font-weight: normal;
+    font-size: 13px;
+
+    color: rgb(20, 20, 50);
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+#header {
+
+  width: 100%;
+  height: 48px;
+  background-color: #fff;
+  top: 0px;
+   left: 0px;
+   z-index: 10;
+   position: fixed;
+}
+
+#header .header-box {
+	max-width: 864px;
+	min-width:864px;
+	position: relative;
+	margin: 0 auto;
+}
+
+#header .logo {
+	
+  width: 141px;
+  height: 29px;
+  cursor:pointer;
+  display: flex;
+  float:left;
+
+  margin-top: 8px;
+}
+
+a:link    { 
+
+	}        
+ 
+.m9 {
+
+
+font-family: 'Gothic A1';
+font-style: normal;
+font-weight: 700;
+font-size: 23px;
+line-height: 29px;
+/* identical to box height */
+
+
+color: #000000;
+margin-bottom:40px;
+}
+		
+		
+.nav-box {
+	width:501px;
+	height:48px;
+	background-color:#ffffff;
+	float:left;
+}
+.nav-box ul li {
+	float: left;
+	width: 20%;
+	height: 100%;
+	line-height:48px;
+	text-align:center;
+	font-family: GothicA1;
+	font-size: 15px;
+}
+
+
+
+.user_img{
+
+width: 36px;
+    height: 36px;
+    margin-top: 6px;
+    margin-left: 11px;
+    flex-grow: 0;
+    border-radius: 5px;
+    background-color: #fff;
+    float: right;
+    cursor: pointer;
+}
+
+.userimg{
+margin-right:15px;
+margin-left:21px;
+}
+
+#header .search-box {
+	
+  width: 128px;
+  height: 32px;
+
+  border-radius: 26px;
+  float: right;
+  background-color: #f3f3f3;
+  margin-top: 8px; 
+}
+
+.chat_btn {
+	
+   width: 36px;
+  height: 36px;
+  margin-top: 6px;
+   margin-left: 11px;
+  flex-grow: 0;
+  border-radius: 5px;
+
+  background-color: #fff;
+float: right;
+}
+
+
+.login_btn {
+  width: 36px;
+  height: 36px;
+  margin-top: 6px;
+   margin-left: 11px;
+  flex-grow: 0;
+  border-radius: 5px;
+  background-color: #fff; 
+  float: right;
+}
+
+.Vector {
+  width: 19px;
+  height: 19px;
+  float:left;
+  margin-top:5px;
+  margin-left:5px;
+}
+
+input#searchInput{
+	border:none; 
+	background-color: #f3f3f3; 
+	text-align:center; 
+	margin-top:7px;
+}
+
+#main {
+        background: #f4f4f4;
+		  position: relative;
+		  margin: 0 auto;
+		  min-height:1024px;
+		margin-top: 48px;
+      }
+	  
+#main .center-box{
+	
+	width: 864px;
+	margin: 0 auto;	
+}
+
+
+
+
+
+#main .show{
+	
+    overflow: hidden;
+    position: relative;
+	margin: 0 auto;
+	
+	
+}
+
+
+#userDiv {
+position:absolute;
+    z-index: 15;
+    width: 200px;
+    height: 286px;
+    margin-top:50px;
+    background: #FFFFFF;
+    border: 1px solid #030303;
+    border-radius: 5px;
+}
+
+#userDiv li {
+    display: block;
+    text-decoration: none;
+    height: 40px;
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+}
+
+#userDiv li:hover{
+	 cursor:pointer;
+	 background: #E5E5E5;
+    font-weight: 700;
+}
+
+
+.foter {
+ position: relative;
+ margin: 0 auto;
+ position: relative;
+    margin: 0 auto;
+ width:880px;
+
+font-family: 'Gothic A1';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 16px;
+
+color: #000000;
+}

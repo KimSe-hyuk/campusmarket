@@ -1,0 +1,169 @@
+.chatlistbox{
+    box-sizing: border-box;
+
+ float:left;  
+width: 272px;
+height: 672px;
+
+background: #FFFFFF;
+
+}
+
+.chatlist{
+    box-sizing: border-box;
+ 
+width: 272px;
+height: 586px;
+
+background: #FFFFFF;
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+
+.chatlist::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera*/
+}
+
+
+.chatbox{
+    box-sizing: border-box;
+    margin-left: 272px;
+height: 672px;
+background: #FFFFFF;
+border-left: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.chattingbox{
+    box-sizing: border-box;
+  
+height: 411px;
+background: #FFFFFF;
+overflow: auto;
+border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.left{
+ float: left;
+ 
+    width: 296px;
+
+    background: #F4F4F4;
+    border-radius: 0px 24px 24px 24px;
+    margin: 24px;
+   padding: 14px;
+}
+
+.right{
+float: right;
+  
+    width: 296px;
+
+    background: #B4D7FA;
+    border-radius: 24px 0px 24px 24px;
+    margin: 24px;
+ padding: 14px;
+}
+
+.lt{
+text-align: left;
+margin: 0;
+    margin-left: -80px;
+}
+
+.rt{
+margin: 0;
+text-align: right;
+    margin-right: -80px;
+}
+
+.text-box{
+
+    box-sizing: border-box;
+    position: absolute;
+    width: 543px;
+    height: 126px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 14px;
+    margin: 0 auto;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+    top: 25px;
+}
+
+.btnst{
+float: right;
+
+    margin-right: 13px;
+    width: 67px;
+    height: 30px;
+    border: 0;
+    background: #F4F4F4;
+    border-radius: 6px;
+}
+.text-area{
+width: 504px;
+    height: 60px;
+    margin: 17px;
+    margin-bottom: 0px;
+    border: 0;
+outline: none;
+resize: none;
+}
+.Whrwl{
+    padding: 27px;
+padding-top: 27px;
+    font-family: 'Gothic A1';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 29px;
+    margin: 0 auto;
+    color: #000000;
+}
+
+.chat_pro_img{
+
+width: 40px;
+height: 40px;
+
+border-radius: 5px;
+cursor : pointer;
+}
+
+.chattitle{
+font-family: 'Gothic A1';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 21px;
+color: #000000;
+}
+
+.chatfirst{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 17px;
+line-height: 21px;
+/* identical to box height */
+
+margin:0 auto;
+color: #000000;
+}
+.chat_out_btn{
+    font-size: 1px;
+    display: inline-block;
+    height: 37px;
+    cursor: pointer;
+    font-family: 'Gothic A1';
+    font-size: 15px;
+    color: #FFFFFF;
+    border-style: none;
+    cursor: pointer;
+    background-color: #007EFF;
+    border-radius: 10px;
+    padding: 1px 13px;
+
+}

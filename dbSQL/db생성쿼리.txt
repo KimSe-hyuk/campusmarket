@@ -1,0 +1,21 @@
+DB생성쿼리
+1.board_object
+CREATE TABLE `movieverse`.`board_object` (`object_num` INT(8) NOT NULL AUTO_INCREMENT , `object_name` VARCHAR(100) NOT NULL , `object_contents` VARCHAR(255) NOT NULL , `price` INT(8) NOT NULL , `object_img` VARCHAR(255) NOT NULL , `object_category` VARCHAR(255) NOT NULL , `member_num` INT(8) NOT NULL , `regist_date` DATETIME NOT NULL , `sale_status` BOOLEAN NOT NULL , PRIMARY KEY (`object_num`)) ENGINE = InnoDB;
+
+2.member
+CREATE TABLE `movieverse`.`member` (`member_num` INT(8) NOT NULL AUTO_INCREMENT , `pw` VARCHAR(50) NOT NULL , `nickname` VARCHAR(50) NOT NULL , `id` VARCHAR(50) NOT NULL , `member_img` VARCHAR(100) NOT NULL , `regist_date` DATETIME NOT NULL , `university_num` INT(8) NOT NULL , `reported` FLOAT NOT NULL , `secession` BOOLEAN NOT NULL , PRIMARY KEY (`member_num`)) ENGINE = InnoDB;
+
+3.board
+CREATE TABLE `movieverse`.`board` (`board_num` INT(8) NOT NULL AUTO_INCREMENT , `member_num` INT NOT NULL , `object_num` INT NOT NULL , `board_contents` VARCHAR(255) NOT NULL , `write_date` DATETIME NOT NULL , `board_category` VARCHAR(50) NOT NULL , PRIMARY KEY (`board_num`)) ENGINE = InnoDB;
+
+4.dips
+CREATE TABLE `movieverse`.`dips` (`dips_num` INT(8) NULL AUTO_INCREMENT , `member_num` INT NULL , `object_num` INT NULL , `dips_date` DATETIME NULL , PRIMARY KEY (`dips_num`)) ENGINE = InnoDB;
+
+5.buy
+CREATE TABLE `movieverse`.`buy` (`buy_num` INT(8) NULL AUTO_INCREMENT , `member_num` INT NULL , `object_num` INT NULL , `buy_date` DATETIME NULL , `bus_status` BOOLEAN NULL , PRIMARY KEY (`buy_num`)) ENGINE = InnoDB;
+
+6.chatroom
+CREATE TABLE `movieverse`.`chatroom` (`chatroom_id` INT(8) NULL DEFAULT NULL AUTO_INCREMENT , `seller_num` INT NULL DEFAULT NULL , `buyer_num` INT NULL DEFAULT NULL , `object_num` INT NULL DEFAULT NULL , `regist_date` DATETIME NULL DEFAULT NULL , PRIMARY KEY (`chatroom_id`)) ENGINE = InnoDB;
+
+7.chat
+CREATE TABLE `movieverse`.`chat` (`member_num` INT NOT NULL , `chatroom_id` INT NOT NULL , `chat_ message` VARCHAR(255) NOT NULL , `chat_date` DATETIME NOT NULL ) ENGINE = InnoDB;

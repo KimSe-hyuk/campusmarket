@@ -1,0 +1,29 @@
+.result_box{
+		
+	
+    overflow: hidden;
+	display: flex;
+    flex-wrap: wrap;
+	
+}
+
+.text-box{
+	text-align: center;
+}
+
+
+.result_item {
+  
+width: 198px;
+height: 266px;
+background: url(.jpg), #D9D9D9;
+border-radius: 8px;	
+
+ 
+    margin-right: 24px;
+	margin-bottom: 24px;
+    padding: 0px;
+}
+.result_item:nth-child(4n) {
+    margin-right: 0px;
+}
